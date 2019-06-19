@@ -1,0 +1,19 @@
+ABSTRACT para AAA2019 - Viedma
+
+Poster
+
+Author: D.G. Lloveras(1), A.M. Vásquez(1), E. Landi(2) & R.A. Frazin(2)
+(1) IAFE (UBA-CONICET), Ciudad Autonoma de Buenos Aires, Argentina.
+(2) CLaSP (Univ. of Michigan), Ann Arbor - Michigan, EEUU.
+
+Titulo: Tomography of the Solar Corona with Multiple Instruments: First Steps
+
+La tomografía solar rotacional es una técnica observacional de la corona solar que permite la {reconstrucción} de la distribución {tridimensional} (3D) global de algunos de sus parámetros fundamentales, como por ejemplo la densidad electrónica.  La tomografía basada en EUV es aplicada regularmente a datos obtenidos con telescopios espaciales, cubriendo típicamente el rango de alturas heliocéntricas $1.02-1.25~\rm{R}_\odot$. Este rango solapa parcialmente el del campo de visión del coronógrafo de luz blanca K-coronagraph (KCOR), en el High Altitude Observatory (HAO), que cubre el rango $1.05-3.0~\rm{R}_\odot$. En este trabajo presentamos resultados preliminares de la primer comparación de una reconstrucción de la densidad electrónica coronal obtenida utilizando imágenes EUV con la obtenida utilizando imágenes en luz blanca. Los resultados obtenidos son discutidos en términos de las diversas características de los datos utilizados, {así} como de los diferentes factores físicos que afectan cada análisis.
+
+
+La densidad electronica obtenida por euv tiene asociada la abundancia de hierro relativa a la cromosfera.
+En el presente trabajo consideramos la abundancia de hierro como parametro libre y exploramos diferentes valores de irregularidad de densidad para explicar los valores de las observaciones obtenidas.
+
+
+
+
