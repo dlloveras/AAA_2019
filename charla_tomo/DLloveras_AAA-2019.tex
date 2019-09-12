@@ -4,7 +4,7 @@
 \usepackage{color}
 \usepackage{beamerthemesplit}
 \usepackage[utf8]{inputenc}
-
+\usepackage{graphicx}
 %\usetheme{Malmoe}
 %\usetheme{CambridgeUS}
 %\usetheme{Hannover}
@@ -182,35 +182,34 @@ Being the place where the solar wind is heated and accelerated, and impulsive ev
 %The object of study is the solar corona.\\
 %The solar rotation provides the necessary 360\deg view angles.
 El objeto de estudio es la Corona Solar.\\
-La rotación solar provee los diferentes ángulos de visión necesarios.
 \end{center}
 %\vspace{-1.5cm}
-\begin{columns}
+%\begin{columns}
 %\vspace{-1cm}
-\column{0.6\textwidth}
+%\column{0.6\textwidth}
 \begin{itemize}
 \item \azul{Corona-E:} Emisión de iones coronales en UV, \azul{EUV} y X.
-\item \azul{TSR-EUV} $\rightarrow$ emisividad EUV 3D  $\rightarrow$\\
-Medida de Emisión Diferencial 3D $\rightarrow$\\
-$N_e$ y $T_e$ 3D
+\item \azul{TSR-EUV} $\rightarrow$ emisividad EUV 3D  $\rightarrow$ DEM 3D $\rightarrow$$N_e$ y $T_e$ 3D
 \item 1$^{\rm er}$ TSR-EUV:\\ 
 Frazin, Vásquez \& Kamalabadi (ApJ 2009)\\
 Vásquez, Frazin \& Kamalabadi (SolPhys 2009)
 \end{itemize}
-\column{0.4\textwidth}
+%\column{0.4\textwidth}
 %\vskip 1.2cm
-\begin{center}
+%\begin{center}
 %\azul{White Light}
 %\includegraphics[height=0.7\textwidth]{new_figs/20171215_175739_kcor_l15_extavg.eps}
 %\includegraphics[height=0.6\textwidth]{new_figs/LASCOC2_comet.eps}
-\mediosalto
-\azul{EUV} \\
-\includegraphics[height=0.6\textwidth]{new_figs/2017_12_15_19_11_15_AIA_171.png}
+%\mediosalto
+%\azul{EUV} \\
+%\includegraphics[height=0.6\textwidth]{new_figs/2017_12_15_19_11_15_AIA_171.png}
 %\includegraphics[height=0.3\textwidth]{new_figs/2017_12_15_19_11_15_AIA_193.png}
 %\includegraphics[height=0.3\textwidth]{new_figs/2017_12_15_19_11_15_AIA_211.png}
+%\end{center}
+%\end{columns}
+\begin{center}
+La rotación solar provee los diferentes ángulos de visión necesarios.
 \end{center}
-\end{columns}
-
 \begin{columns}
 \column{0.1\textwidth}
 \vskip 1cm
@@ -269,20 +268,25 @@ Long = 90\deg\\
 \end{columns}
 %\begin{columns}
 % \column{0.4\textwidth}
- $
-\azul{I_{k,j}} = \azul{
-\int_{\mathrm{LOS}} \mathrm{d}l} \ 
-\rojo{FBE_k \left(\azul{\br_j(l)}\right)}
-$  \hfill Vásquez et al. (2016)
+ 
+%\azul{I_{k,j}} = \azul{
+%\int_{\mathrm{LOS}} \mathrm{d}l} \ 
+%\rojo{FBE_k \left(\azul{\br_j(l)}\right)}
+
+$\azul{I_\mathrm{b}} = \azul{
+\int_{\mathrm{LDV}} \mathrm{d}l} \ 
+\rojo{E_{b}}$
+
+ \hfill Vásquez et al. (2016)
 % \column{0.6\textwidth}
 %\end{columns}
 }
 %-------------------------------
 \frame{
-\titulo{Characteristic Temperatures of the Solar Corona}
+\titulo{Temperaturas características de la Corona Solar}
 \footnotesize
 \begin{center}
-EIT/SOHO and EUVI/STEREO \azul{3 bands:} \azul{0.5-2.75 MK}\\
+EIT/SOHO y EUVI/STEREO \azul{3 bands:} \azul{0.5-2.75 MK}\\
 {AIA/SDO} \azul{4 bands:} \azul{0.5-4.0 MK},\\
 \begin{figure}[ht]
 \figu{\includegraphics[height=0.375\linewidth]{new_figs/panel.eps}}
@@ -290,19 +294,19 @@ EIT/SOHO and EUVI/STEREO \azul{3 bands:} \azul{0.5-2.75 MK}\\
 \end{figure}
 \end{center}
 %\tiny
-$\azul{FBE_{k,i} }  =  \azul{\int \mathrm{d}T \  R_k(T)  \rojo{{\sf LDEM}_i(T)} }$ $\rightarrow$
-$\left< N_e^2\right>_i = \int \mathrm{d} T \ \, \rojo{{\sf LDEM}_i(T)}$\\
-\qquad \qquad \qquad \qquad \qquad \qquad \qquad $\rightarrow$ $T_{m,i}   = \frac{1}{\left< N_e^2\right>_i } \int \mathrm{d}T\ T \ \, \rojo{{\sf LDEM}_i(T)}$\\
+$\azul{E_{k} }  =  \azul{\int \mathrm{d}T \  R_k(T)  \rojo{{\sf LDEM}(T)} }$ $\rightarrow$
+$\left< N_e^2\right> = \int \mathrm{d} T \ \, \rojo{{\sf LDEM}(T)}$\\
+\qquad \qquad \qquad \qquad \qquad \qquad \ \ $\rightarrow$ $T_{m}   = \frac{1}{\left< N_e^2\right> } \int \mathrm{d}T\ T \ \, \rojo{{\sf LDEM}(T)}$\\
 }
 
 %---------------------------------
 \frame{ 
 \vspace{-0.05cm}
-\titulo{Example of EUV Tomography}
+\titulo{Mapas de carrington tomográficos}
 \footnotesize
 
 \begin{center}
-  Minimum 2009 Extreme UltraViolet Imager\\
+  Mínimo solar 2009 - Extreme UltraViolet Imager\\
 
 %{\includegraphics[width=0.86\textwidth]{new_figs/Ne_1105_cr2081l075_ldem_v3_errorbox_base_test.jpg}}
 {\includegraphics[width=0.46\textwidth]{new_figs/Ne_1025_CR2081.pdf}}
@@ -313,7 +317,7 @@ $\left< N_e^2\right>_i = \int \mathrm{d} T \ \, \rojo{{\sf LDEM}_i(T)}$\\
 %{\includegraphics[width=0.86\textwidth]{new_figs/Tm_1105_cr1915l075_ldem_v3_errorbox_base_test.jpg}}\\
 {\includegraphics[width=0.46\textwidth]{new_figs/Tm_1105_CR2081.pdf}}
 \end{center}
-(Lloveras et al. 2017) $\rightarrow$ Systematic uncertainties in DEMT results $\sim 10 \%$
+(Lloveras et al. 2017) $\rightarrow$ Incertezas sistemáticas en DEMT $\sim 10 \%$
 }
 %---------------------------------
 \begin{comment}
@@ -354,7 +358,21 @@ $\rightarrow$ 3D $<N_{e}>$
 \end{comment}
 %----------------------------------
 \frame{
-%\titulo{DEMT as MHD Validation Tool \azul{\footnotesize (Jin et al. 2012)}}
+\titulo{Validación del módulo AWSoM del modelo Space weather modeling framework}
+\begin{itemize}
+  \item Jin et al. 2012, Revista
+  \item Rona et al. 2015,Revista
+  \item Van del Holst 2014, Revista
+  \item Colage XI presentamos una comparacion del minimo del 2009 y guiamos la validación de la parte baja del modelo
+  \item Sachdeva 2019, APJ.
+\end{itemize}
+
+}
+
+
+%-----------------------------------
+\frame{
+\titulo{Comparación 3D MHD/Tomografía}
 \footnotesize
 %\vspace{-0.25cm}
 %\begin{center}
@@ -364,7 +382,7 @@ $\rightarrow$ 3D $<N_{e}>$
 \begin{columns}
 \column{0.5\textwidth}
 \begin{center}
-\includegraphics[width=0.75\textwidth]{new_figs/ne_demt_2208_1055.png}
+\includegraphics[width=4cm,height=2.5cm]{new_figs/ne_demt_2208_1055.png}
 \includegraphics[width=0.75\textwidth]{new_figs/ne_awsom_2208_1055.png}
 \includegraphics[width=0.75\textwidth]{new_figs/ne_diff_2208_1055.png}
 \end{center}
@@ -375,7 +393,6 @@ $\rightarrow$ 3D $<N_{e}>$
 \includegraphics[width=0.75\textwidth]{new_figs/te_diff_2208_1055.png}
 \end{center}
 \end{columns}
-(Sachdeva et al. 2019, en prensa.)
 %\end{center}
 %Inner Ring (1.00 - 1.25 \rsun): Ratio MHD/DEMT.\\
 %- Outter Greyscale map ($>$ 1.25 \rsun): MHD Model.\\
