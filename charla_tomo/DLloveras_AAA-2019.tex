@@ -360,6 +360,7 @@ $\rightarrow$ 3D $<N_{e}>$
 \frame{
 \titulo{Validación del módulo AWSoM del modelo Space weather modeling framework}
 \begin{itemize}
+  \item WHI
   \item Jin et al. 2012, Revista
   \item Rona et al. 2015,Revista
   \item Van del Holst 2014, Revista
@@ -372,28 +373,37 @@ $\rightarrow$ 3D $<N_{e}>$
 
 %-----------------------------------
 \frame{
+\vspace{-0.15cm}
 \titulo{Comparación 3D MHD/Tomografía}
 \footnotesize
-%\vspace{-0.25cm}
+\vspace{-0.25cm}
 %\begin{center}
 % AWSoM / Space Weather Modeling Framework (Univ. of Michigan)
 %2 Temp MHD Model of the Space Weather Modeling Framework (CLASP)
 %\vspace{-0.5cm}
 \begin{columns}
-\column{0.5\textwidth}
+\column{0.1\textwidth}
+Ne $(1e^8 cm^-3)$ \\
+Te $(MK)$ \\ 
+$(MHD-DEMT)/DEMT$ \\
+\column{0.45\textwidth}
 \begin{center}
-\includegraphics[width=4cm,height=2.5cm]{new_figs/ne_demt_2208_1055.png}
-\includegraphics[width=0.75\textwidth]{new_figs/ne_awsom_2208_1055.png}
-\includegraphics[width=0.75\textwidth]{new_figs/ne_diff_2208_1055.png}
+\includegraphics[width=0.85\textwidth,height=2.cm]{new_figs/ne_demt_2208_1055.png}
+\includegraphics[width=0.85\textwidth,height=2.cm]{new_figs/ne_awsom_2208_1055.png}
+\includegraphics[width=0.85\textwidth,height=2.cm]{new_figs/ne_diff_2208_1055.png}
 \end{center}
-\column{0.5\textwidth}
+\column{0.45\textwidth}
 \begin{center}
-\includegraphics[width=0.75\textwidth]{new_figs/te_demt_2208_1055.png}
-\includegraphics[width=0.75\textwidth]{new_figs/te_awsom_2208_1055.png}
-\includegraphics[width=0.75\textwidth]{new_figs/te_diff_2208_1055.png}
+\includegraphics[width=0.85\textwidth,height=2.cm]{new_figs/te_demt_2208_1055.png}
+\includegraphics[width=0.85\textwidth,height=2.cm]{new_figs/te_awsom_2208_1055.png}
+\includegraphics[width=0.85\textwidth,height=2.cm]{new_figs/te_diff_2208_1055.png}
 \end{center}
 \end{columns}
-%\end{center}
+\vspace{-0.25cm}
+\begin{center}
+\includegraphics[width=0.35\textwidth]{new_figs/Median_Ne_2208_v2.eps}
+\includegraphics[width=0.35\textwidth]{new_figs/Median_Te_2082_v2.eps}\\
+\end{center}
 %Inner Ring (1.00 - 1.25 \rsun): Ratio MHD/DEMT.\\
 %- Outter Greyscale map ($>$ 1.25 \rsun): MHD Model.\\
 %- Color Sphere: $B_r(1\,{\rm R_{\rm SUN}})$.
@@ -403,36 +413,34 @@ $\rightarrow$ 3D $<N_{e}>$
 %---------------------------------
 
 \frame{ 
+\titulo{Trazado a lo largo de líneas magnéticas}
 %\vspace{-0.05cm}
 %\titulo{a}
 \footnotesize
 \begin{center}
-\includegraphics[width=0.35\textwidth]{new_figs/Median_Ne_2082.eps}
-\includegraphics[width=0.35\textwidth]{new_figs/Median_Tm_2082.eps}\\
-\includegraphics[width=0.35\textwidth]{new_figs/Median_Ne_2208.eps}
-\includegraphics[width=0.35\textwidth]{new_figs/Median_Tm_2208.eps}\\
-\includegraphics[width=0.45\textwidth]{new_figs/2208_magnetograma_adaptivo.png}
-\includegraphics[width=0.25\textwidth]{new_figs/CR2081.jpg}
+%\includegraphics[width=0.35\textwidth]{new_figs/Median_Ne_2082.eps}
+%\includegraphics[width=0.35\textwidth]{new_figs/Median_Tm_2082.eps}\\
+%\includegraphics[width=0.35\textwidth]{new_figs/Median_Ne_2208.eps}
+%\includegraphics[width=0.35\textwidth]{new_figs/Median_Tm_2208.eps}\\
+\includegraphics[width=0.55\textwidth]{new_figs/2208_magnetograma_adaptivo.png}
+\includegraphics[width=0.35\textwidth]{new_figs/CR2081.jpg}
+\includegraphics[width=0.75\textwidth]{new_figs/Rpoint-map_5colores_fulleuvi_base.pdf}\\
 \end{center}
 }
 %---------------------------------------------------------------------------------------
 
 
-\frame{ 
-\begin{center}
-\includegraphics[width=0.75\textwidth]{new_figs/Rpoint-map_5colores_fulleuvi_base.pdf}\\
-\includegraphics[width=0.75\textwidth]{new_figs/Rpoint-map_5colores_euvi_base.pdf}
-\end{center}
-}
+%\frame{ 
+%\begin{center}
+%\includegraphics[width=0.75\textwidth]{new_figs/Rpoint-map_5colores_fulleuvi_base.pdf}\\
+%\includegraphics[width=0.75\textwidth]{new_figs/Rpoint-map_5colores_euvi_base.pdf}
+%\end{center}
+%}
+
 %--------------------------------------------------------------------------------
 \frame{ 
-\begin{center}
-\includegraphics[width=0.75\textwidth]{new_figs/2082_grad_temp.eps}\\
-\includegraphics[width=0.75\textwidth]{new_figs/2208_grad_temp.eps}
-\end{center}
-}
-%--------------------------------------------------------------------------------
-\frame{ 
+
+\titulo{Comparación MHD/DEMT en estructuras magnéticas}
 \begin{center}
 \includegraphics[width=0.45\textwidth]{new_figs/2082_ne_1055.eps}
 \includegraphics[width=0.45\textwidth]{new_figs/2208_ne_1055.eps}\\
@@ -446,36 +454,18 @@ $\rightarrow$ 3D $<N_{e}>$
 
 \frame{
 \vspace{-0.05cm}
-\titulo{Conclusiones}
+\titulo{Comentarios finales}
 \footnotesize
 \begin{itemize}
-\item Por debajo de $r \sim 1.055 {\rm R_{SUN}}$ el modelo AWSOM no es capaz de modelar la baja corona (region de transicion extendida). 
-\item Sobre $r \sim 1.055 {\rm R_{SUN}}$ en Streamer y Agujero Coronal: $T_e$ en acuerdo dentro del $\sim 15 \%$ y $N_e$ en acuerdo dentro del $\sim 20 \%$.
-\item La estructura del streamer ecuatorial esta dominada por down loops que no son modelados por el modelo AWSOM.
-\item
+\item La técnica tomográfia es la única herramienta global existente para validacion de la baja corona.
+\item Por debajo de $r \sim 1.05 \ {\rm R_{SUN}}$ el modelo AWSoM no es capaz de modelar la baja corona (region de transicion extendida). 
+\item Sobre $r \sim 1.05 \ {\rm R_{SUN}}$ en Streamer y Agujero Coronal: $T_e$ y $N_e$ en acuerdo dentro del $\sim 30 \%$.
+\item Realizar una rotación mas cercana al mínimo $\rightarrow$ Whole Heliosphere and Planetary Interactions (WHPI)
+\item Implementación de Tomografía Multi Instrumental (EUV: EUVI, AIA; Luz Blanca: K-cor, Lasco-C2;  Coronal Multichannel Polarimeter (CoMP). 
 \end{itemize}
 
 }
 %--------------------------------------------------------------------------------
-
-\frame{
-\vspace{-0.05cm}
-\titulo{Trabajo Futuro}
-\footnotesize
-\begin{itemize}
-\item Realizar una rotación mas cercana al mínimo $\rightarrow$ Whole Heliosphere and Planetary Interactions (WHPI)
-\item Implementación de Tografía Multi Instrumental (EUV: EUVI, AIA; Luz Blanca: K-cor, Lasco-C2;  Coronal Multichannel Polarimeter (CoMP). 
-\end{itemize}
-
-}
-
-
-
-
-
-
-
-
 
 
 %----------------------------------------------cosas viejas de kcor
