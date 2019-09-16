@@ -80,13 +80,13 @@
 %-------------------> INTRODUCCION <----------------------------------------------------
 
 \frame{
-\titulo{Solar Corona and Sun-Earth relation}
+\titulo{Corona Solar y la relación Sol Tierra}
 \scriptsize
 \framebox{\includegraphics[width=\linewidth]{new_figs/Sun-Earth.eps}}
 \begin{center}
-%La observación y el modelado de la Corona solar resulta de gran relevancia para el entendimiento de la relación Sol-Tierra, ya que en la Corona es donde el viento solar es calentado, acelerado y tienen lugar eventos impulsivos como eyecciones de masa coronal, flares, etc.
+La observación y el modelado de la Corona solar resulta de gran relevancia para el entendimiento de la relación Sol-Tierra, ya que en la Corona es donde el viento solar es calentado, acelerado y tienen lugar eventos impulsivos como eyecciones de masa coronal, flares, etc.
 
-Being the place where the solar wind is heated and accelerated, and impulsive events as solar flares and coronal mass ejections are released, observation and modeling of the Solar Corona is of great relevance to advance our understanding of the Sun-Earth environment.
+%Being the place where the solar wind is heated and accelerated, and impulsive events as solar flares and coronal mass ejections are released, observation and modeling of the Solar Corona is of great relevance to advance our understanding of the Sun-Earth environment.
 %Advancement of physical models is in need of 3D information of the coronal fundamental parameters ${\bf B}, N_e, T_e$ and chemical abundances.
 \end{center}
 }
@@ -124,7 +124,7 @@ Being the place where the solar wind is heated and accelerated, and impulsive ev
 \end{comment}
 %---------------------------------------------------------------------------
 \frame{
-\titulo{Solar Corona}
+\titulo{Corona Solar}
 \footnotesize
 \vspace{-0.25cm}
 \begin{center}
@@ -133,15 +133,15 @@ Being the place where the solar wind is heated and accelerated, and impulsive ev
 \end{center}
  Corona (T $\approx 1-10$\, MK, $n \approx 10^{10-7}\ {\rm cm}^{-3}$)
 \begin{itemize}
- %\item La baja corona emite eficientemente en el rango EUV.\\
- \item The corona is \azul{optically thin} in the UV, \azul{EUV}, X, \azul{WL} ranges.\\
-%Las imágenes son proyecciones 2D de estructuras emisoras 3D.
-\item Images are thus 2D projections of the underlying 3D emitting structure.
+ \item La baja corona es ópticamente delgada y emite eficientemente en el rango EUV y WL.\\
+ %\item The corona is \azul{optically thin} in the UV, \azul{EUV}, X, \azul{WL} ranges.\\
+\item Las imágenes son proyecciones 2D de estructuras emisoras 3D.
+%\item Images are thus 2D projections of the underlying 3D emitting structure.
 % \salto
 % \item El plasma emisor es governado por el \azul{campo magn\'etico coronal} congelado a la materia, para el cual {no se dispone de mediciones} (que son fotosf\'ericas).
  \mediosalto
-%\item Los modelos físicos necesitan información 3D coronal de parámetros $N_e, T_e$.
-\item Advancement of physical models is in need of 3D information of the coronal fundamental parameters ${\bf B}, N_e, T_e$ and chemical abundances.
+\item El avance de los modelos físicos necesitan información 3D coronal de parámetros fundamentales: $N_e$, $T_e$ y abundancias químicas.
+%\item Advancement of physical models is in need of 3D information of the coronal fundamental parameters ${\bf B}, N_e, T_e$ and chemical abundances.
 \end{itemize}
 %\vspace{0.35cm}
 %\azul{\bf Tomography}\\
@@ -294,7 +294,7 @@ EIT/SOHO y EUVI/STEREO \azul{3 bands:} \azul{0.5-2.75 MK}\\
 \end{figure}
 \end{center}
 %\tiny
-$\azul{E_{k} }  =  \azul{\int \mathrm{d}T \  R_k(T)  \rojo{{\sf LDEM}(T)} }$ $\rightarrow$
+$\azul{E_{b} }  =  \azul{\int \mathrm{d}T \  R_b(T)  \rojo{{\sf LDEM}(T)} }$ $\rightarrow$
 $\left< N_e^2\right> = \int \mathrm{d} T \ \, \rojo{{\sf LDEM}(T)}$\\
 \qquad \qquad \qquad \qquad \qquad \qquad \ \ $\rightarrow$ $T_{m}   = \frac{1}{\left< N_e^2\right> } \int \mathrm{d}T\ T \ \, \rojo{{\sf LDEM}(T)}$\\
 }
@@ -317,7 +317,8 @@ $\left< N_e^2\right> = \int \mathrm{d} T \ \, \rojo{{\sf LDEM}(T)}$\\
 %{\includegraphics[width=0.86\textwidth]{new_figs/Tm_1105_cr1915l075_ldem_v3_errorbox_base_test.jpg}}\\
 {\includegraphics[width=0.46\textwidth]{new_figs/Tm_1105_CR2081.pdf}}
 \end{center}
-(Lloveras et al. 2017) $\rightarrow$ Incertezas sistemáticas en DEMT $\sim 10 \%$
+(Lloveras et al. 2017, Solar Physics) $\rightarrow$ Incertezas sistemáticas en DEMT $\sim 10 \%$ \\
+Nuevo et al. 2013, APJ
 }
 %---------------------------------
 \begin{comment}
@@ -358,14 +359,15 @@ $\rightarrow$ 3D $<N_{e}>$
 \end{comment}
 %----------------------------------
 \frame{
-\titulo{Validación del módulo AWSoM del modelo Space weather modeling framework}
+\titulo{Validación del modelo AWSoM (SWMF)}
 \begin{itemize}
-  \item WHI
-  \item Jin et al. 2012, Revista
-  \item Rona et al. 2015,Revista
-  \item Van del Holst 2014, Revista
-  \item Colage XI presentamos una comparacion del minimo del 2009 y guiamos la validación de la parte baja del modelo
-  \item Sachdeva 2019, APJ.
+%  \item Vásquez et al 2008, APJ
+  \item Van del Holst 2010, APJ (Stereo, ACE)
+  \item Jin et al. 2012, APJ (ACE, Stereo, Lasco C2)
+  \item Whole Heliosphere Interval, 2012 (mínimo 2009)  
+  \item Oran et al. 2015, APJ (Ulysses, perfiles latitudinales con demt)
+  \item Colage XI (2018) presentamos una comparación del mínimo del 2009 y guiamos la validación de la baja corona.
+  \item Sachdeva et al. 2019, APJ. (AIA, Lasco C2, IPS, OMNI)
 \end{itemize}
 
 }
@@ -382,17 +384,23 @@ $\rightarrow$ 3D $<N_{e}>$
 %2 Temp MHD Model of the Space Weather Modeling Framework (CLASP)
 %\vspace{-0.5cm}
 \begin{columns}
-\column{0.1\textwidth}
-Ne $(1e^8 cm^-3)$ \\
-Te $(MK)$ \\ 
-$(MHD-DEMT)/DEMT$ \\
-\column{0.45\textwidth}
+\column{0.4\textwidth}
 \begin{center}
 \includegraphics[width=0.85\textwidth,height=2.cm]{new_figs/ne_demt_2208_1055.png}
 \includegraphics[width=0.85\textwidth,height=2.cm]{new_figs/ne_awsom_2208_1055.png}
 \includegraphics[width=0.85\textwidth,height=2.cm]{new_figs/ne_diff_2208_1055.png}
 \end{center}
-\column{0.45\textwidth}
+\column{0.2\textwidth}
+\ \ \ \ DEMT \\
+$\leftarrow$Ne $(1e^8 cm^{-3})$ \\
+\ \ \ \ \ \ Te $(MK)\rightarrow$\\
+\vspace{1.cm}
+\ \ \ \ MHD \\
+$\leftarrow$Ne $(1e^8 cm^{-3})$ \\
+\ \ \ \ \ \ Te $(MK)\rightarrow$\\ 
+\vspace{1.cm}
+\ \ \ $\frac{MHD-DEMT}{DEMT}$ \\
+\column{0.4\textwidth}
 \begin{center}
 \includegraphics[width=0.85\textwidth,height=2.cm]{new_figs/te_demt_2208_1055.png}
 \includegraphics[width=0.85\textwidth,height=2.cm]{new_figs/te_awsom_2208_1055.png}
@@ -400,10 +408,15 @@ $(MHD-DEMT)/DEMT$ \\
 \end{center}
 \end{columns}
 \vspace{-0.25cm}
-\begin{center}
-\includegraphics[width=0.35\textwidth]{new_figs/Median_Ne_2208_v2.eps}
-\includegraphics[width=0.35\textwidth]{new_figs/Median_Te_2082_v2.eps}\\
+\begin{columns}
+\column{0.2\textwidth}
+Perfil radial $\rightarrow$
+\column{0.8\textwidth}
+\begin{center} 
+\includegraphics[width=0.45\textwidth,height=0.26\textheight]{new_figs/Median_Ne_2208_v2.eps}
+\includegraphics[width=0.45\textwidth,height=0.26\textheight]{new_figs/Median_Te_2082_v2.eps}\\
 \end{center}
+\end{columns}
 %Inner Ring (1.00 - 1.25 \rsun): Ratio MHD/DEMT.\\
 %- Outter Greyscale map ($>$ 1.25 \rsun): MHD Model.\\
 %- Color Sphere: $B_r(1\,{\rm R_{\rm SUN}})$.
@@ -414,18 +427,30 @@ $(MHD-DEMT)/DEMT$ \\
 
 \frame{ 
 \titulo{Trazado a lo largo de líneas magnéticas}
-%\vspace{-0.05cm}
-%\titulo{a}
+\vspace{-0.25cm}
 \footnotesize
+\begin{columns}
+\column{0.6\textwidth}
 \begin{center}
-%\includegraphics[width=0.35\textwidth]{new_figs/Median_Ne_2082.eps}
-%\includegraphics[width=0.35\textwidth]{new_figs/Median_Tm_2082.eps}\\
-%\includegraphics[width=0.35\textwidth]{new_figs/Median_Ne_2208.eps}
-%\includegraphics[width=0.35\textwidth]{new_figs/Median_Tm_2208.eps}\\
-\includegraphics[width=0.55\textwidth]{new_figs/2208_magnetograma_adaptivo.png}
-\includegraphics[width=0.35\textwidth]{new_figs/CR2081.jpg}
-\includegraphics[width=0.75\textwidth]{new_figs/Rpoint-map_5colores_fulleuvi_base.pdf}\\
+Magnetograma
+\includegraphics[width=0.75\textwidth,height=0.42\textheight]{new_figs/2208_magnetograma_adaptivo.png}
 \end{center}
+\column{0.4\textwidth}
+\begin{center}
+Extrapolación Magnética
+\includegraphics[width=0.75\textwidth]{new_figs/CR2081.jpg}
+\end{center}
+\end{columns}
+\begin{columns}
+\column{0.7\textwidth}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{new_figs/Rpoint-map_5colores_fulleuvi_base.pdf}\\
+\end{center}
+\column{0.3\textwidth}
+Ajustes del trazado \\
+$\rightarrow$ Ne $\sim$ exponencial \\
+$\rightarrow$ Te $\sim$ lineal 
+\end{columns}
 }
 %---------------------------------------------------------------------------------------
 
@@ -440,14 +465,14 @@ $(MHD-DEMT)/DEMT$ \\
 %--------------------------------------------------------------------------------
 \frame{ 
 
-\titulo{Comparación MHD/DEMT en estructuras magnéticas}
+\titulo{Comparación en estructuras magnéticas}
 \begin{center}
-\includegraphics[width=0.45\textwidth]{new_figs/2082_ne_1055.eps}
-\includegraphics[width=0.45\textwidth]{new_figs/2208_ne_1055.eps}\\
-\includegraphics[width=0.45\textwidth]{new_figs/2082_lambda_n.eps}
-\includegraphics[width=0.45\textwidth]{new_figs/2208_lambda_n.eps}\\
-\includegraphics[width=0.45\textwidth]{new_figs/2082_temp_media.eps}
-\includegraphics[width=0.45\textwidth]{new_figs/2208_temp_media.eps}\\
+\includegraphics[width=0.47\textwidth]{new_figs/2208_ne_1055_streamer.eps}
+\includegraphics[width=0.47\textwidth]{new_figs/2208_ne_1055_CH.eps}\\
+\includegraphics[width=0.47\textwidth]{new_figs/2208_lambda_n_streamer.eps}
+\includegraphics[width=0.47\textwidth]{new_figs/2208_lambda_n_CH.eps}\\
+\includegraphics[width=0.47\textwidth]{new_figs/2208_temp_media_streamer.eps}
+\includegraphics[width=0.47\textwidth]{new_figs/2208_temp_media_CH.eps}\\
 \end{center}
 }
 %--------------------------------------------------------------------------------
@@ -457,8 +482,8 @@ $(MHD-DEMT)/DEMT$ \\
 \titulo{Comentarios finales}
 \footnotesize
 \begin{itemize}
-\item La técnica tomográfia es la única herramienta global existente para validacion de la baja corona.
-\item Por debajo de $r \sim 1.05 \ {\rm R_{SUN}}$ el modelo AWSoM no es capaz de modelar la baja corona (region de transicion extendida). 
+\item La técnica tomográfica es la única herramienta global existente para validación de la baja corona.
+%\item Por debajo de $r \sim 1.05 \ {\rm R_{SUN}}$ el modelo AWSoM no es capaz de modelar la baja corona (region de transicion extendida). 
 \item Sobre $r \sim 1.05 \ {\rm R_{SUN}}$ en Streamer y Agujero Coronal: $T_e$ y $N_e$ en acuerdo dentro del $\sim 30 \%$.
 \item Realizar una rotación mas cercana al mínimo $\rightarrow$ Whole Heliosphere and Planetary Interactions (WHPI)
 \item Implementación de Tomografía Multi Instrumental (EUV: EUVI, AIA; Luz Blanca: K-cor, Lasco-C2;  Coronal Multichannel Polarimeter (CoMP). 
