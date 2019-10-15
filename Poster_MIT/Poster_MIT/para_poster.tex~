@@ -1,0 +1,18 @@
+\begin{figure*}[]
+  \centering
+  \includegraphics[width=\columnwidth]{map_Ne_CR2198_DEMT-AIA_H1-L799_r3D_reduced_1105_Rsun.pdf}
+  \includegraphics[width=\columnwidth]{map_x_KCORCR219813imgs-reducedbf2ri105ro225_Inst_109_200_120_90_180_dropneg_r3D_l1e-4_1105_Rsun.pdf}
+  \caption{CR-2198: Same as Fig. \ref{fig_maps} but with the left panel showing the DEMT reconstruction based on EUV images blocked at projected radius $r<1.09~\rm{R}_\odot$, using 1 image per day. Regularization level of DEMT is optimal here.}
+  \label{fig_maps6}
+\end{figure*}
+
+\begin{figure*}[!h]
+  \centering
+  \includegraphics[width=\columnwidth]{comparison_KCOR-Tom_vs_DEMT_CR2198_h_l799_reduced_kcor_1e4_newgrid-Quiet-region1_ratio_range1105-1195_Rsun.pdf}
+  \includegraphics[width=\columnwidth]{comparison_KCOR-Tom_vs_DEMT_CR2198_h_l799_reduced_kcor_1e4_newgrid-Open-region_N_ratio_range1105-1155_Rsun.pdf}\\
+  \includegraphics[width=0.75\columnwidth]{Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_h_l799_reduced_kcor_1e4_newgrid-Quiet-region1.pdf}
+  \hskip 2cm
+  \includegraphics[width=0.75\columnwidth]{Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_h_l799_reduced_kcor_1e4_newgrid-Open-region_N.pdf}
+  \caption{Same analysis of Figure \ref{fig_analysis}, but for the reconstructions shown in Figure \ref{fig_maps6} above.}
+  \label{fig_analysis6}
+\end{figure*}
